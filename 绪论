@@ -1,0 +1,17 @@
+统计学习三要素： 1. 模型 2. 损失函数 3.策略
+
+
+
+分类问题评估标准：
+TP-把正类预测为正类
+FP-把负类预测为正类
+TN-把正类预测为负类
+FN-把正类预测为负类
+
+精确度：P = TP / TP + FP 
+准确度：R = TP / TP + FN
+
+准确率 accuracy = (TP + TN)/(TP + FP + TN + FN)
+召回率 recall = (TP)/(TP+FN)
+F1得分 f1 = 2*(precision * recall)/(precision + recall)
+
